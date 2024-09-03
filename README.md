@@ -1,0 +1,2 @@
+# Data-Science
+ This repository contains projects, assignments, and resources from my Data Science course focused on Python. The course covers essential concepts and techniques for data analysis, including data cleaning, exploratory data analysis, statistical modeling, machine learning, and data visualization. Throughout the course, I work with various datasets and apply Python libraries such as Pandas, NumPy, Matplotlib, and MangoDB to derive insights and build predictive models.
