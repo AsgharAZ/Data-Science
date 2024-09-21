@@ -1,0 +1,11 @@
+Vds is outside in the nested loop. (that's why we will get multiple graphs)
+Vgs is the one on which we will sweep. 
+
+sky130-nm-fd-pr but why
+Rattify Metal Stack 
+
+why did we choose 1.8v
+
+Can you export design from Cadence to Openlane?
+
+Nmos taz hota hain, Pmos ko beta times sae barhana hota hain. 

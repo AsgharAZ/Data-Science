@@ -1,0 +1,38 @@
+PhoneBook Table Example
+=======================
+
+CREATE TABLE phonebook(phone VARCHAR(32), firstname VARCHAR(32), lastname VARCHAR(32), address VARCHAR(64));
+
+INSERT INTO phonebook(phone, firstname, lastname, address) VALUES('+1 123 456 7890', 'John', 'Doe', 'Virginia');
+INSERT INTO phonebook(phone, firstname, lastname, address) VALUES('+1 571 281 9000', 'Paul', 'Smith', 'Texas');
+INSERT INTO phonebook(phone, firstname, lastname, address) VALUES('+1 703 555 6733', 'Samuel', 'Jacobs', 'New York');
+INSERT INTO phonebook(phone, firstname, lastname, address) VALUES('+1 971 877 2345', 'Mike', 'Pearson', 'California');
+
+CREATE TABLE phonebook2(phone VARCHAR(32), age INT);
+
+INSERT INTO phonebook2(phone, age) VALUES('+1 123 456 7890', 25);
+INSERT INTO phonebook2(phone, age) VALUES('+1 571 281 9000', 18);
+INSERT INTO phonebook2(phone, age) VALUES('+1 703 555 6733', 56);
+INSERT INTO phonebook2(phone, age) VALUES('+1 971 877 2345', 37);
+
+SELECT a.phone, a.firstname, b.age from phonebook a JOIN phonebook2 b on a.phone = b.phone;
+SELECT a.phone, a.firstname, b.age from phonebook a, phonebook2 b WHERE a.phone = b.phone;
+
+StateSAT Table Example
+======================
+
+CREATE TABLE SATExam(
+STATES VARCHAR(3),
+REGION VARCHAR(10),
+POPULATION INT,
+SATVERBAL FLOAT,
+SATMATH FLOAT,
+PERCENTTAKING FLOAT,
+PERCENTNOHS FLOAT,
+TEACHERPAY FLOAT);
+
+SELECT * FROM satexam;
+
+SELECT states, population, satverbal from satexam WHERE satverbal > 570;
+
+SELECT region, count(*) as cnt from satexam GROUP BY region;
