@@ -9,7 +9,7 @@ Df2.isnull().sum() tells the total number of missing values
  
 If you have 2%, 3% or 5% of missing values. Then you just drop those rows 18:33. That's an industry rule of thumb  
 But if you have 5% or more than 10% of missing value, then you think of filling them 
-However, if it's 20% then you are losing a lot of information 
+However, if it's 20% then you are losing a lot of information. You might consider dropping the entire column, cause if you try filling it, the results might be too skewed
 .dropna() drops all the rows with missing values 
 .copy() copies data  
 
