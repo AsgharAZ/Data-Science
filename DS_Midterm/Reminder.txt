@@ -1,0 +1,8 @@
+For categorical, use mode. For Numerical, use mean. For ordinal numerical, use median (or mode if situation calls for it)
+
+df3['gender'].value_counts()
+
+do i just drop rows in their entirety if i see less than 5% missing values?
+How do I decide if greater than or less then? in null and alternate hypothesis
+P-Value > 0.05 => We fail to reject Null hypothesis H0 
+P-Value < 0.05 => We reject Null hypothesis H0 
