@@ -2,7 +2,7 @@
 
 **Course:** CS/CE 457/464-L1 - Data Science  
 **Student:** Syed Asghar Abbas Zaidi (07201)  
-**Email:** sz07201@st.habib.edu.pk
+**Email:** saazaidi2001@gmail.com
 
 ## 📋 Project Overview
 
